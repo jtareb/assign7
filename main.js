@@ -1,4 +1,4 @@
-console.log(items)
+var items, price
 
 
 
