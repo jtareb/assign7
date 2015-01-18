@@ -26,7 +26,7 @@ var pricetag=items.filter(function(object) {
 console.log(pricetag);
 
 
-
+/*third question*/
 
 var titlegbp = [];
 var title, price, currency_code
@@ -41,7 +41,25 @@ var title, price, currency_code
 
 console.log('The name of the product using the GBP is', titlegbp);
 
+/*fourth question*/
+var titleWood = [];
+var items, title, materials
 
+
+	
+	var usesWood=items.filter(function(objects) {
+		if(object.materials === "wood"){
+			titleWood.push(.title + object.price);
+			object
+		}
+
+
+
+	});
+	console.log(titleWood);
+
+
+/*fifth question*/
 
 
 
