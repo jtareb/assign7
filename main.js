@@ -47,16 +47,48 @@ var titlewood = [];
 var items, title, materials
 	var materialType=items.filter(function(object) {
 		if(object.materials="wood"){
-		titlewood.push(object.title + object.price);
+		titlewood.push(object.title);
 
 		}
 	});
 	console.log('The title of th product using wood is', titlewood);
+
+
+/*question 5*/
+var materialCount=[];	
+var items, title, materials
+var materials=0;
+
+	var materialType=items.filter(function(object) {
+		if(materials.length>7){
+			materialCount.push(object.title);
+		}
+
 	
+		
+
+		
 
 
-	
+		
+	});
+	console.log('The items made from at least 8 items are', materialCount);
 
+/*question 6*/
+var whomade=[];
+var items, who_made
+
+
+	var question=items.filter(function(object) {
+		if(object.who_made==="i_did"){
+			whomade.push(object.title);
+
+		}
+		
+
+	});
+	console.log('The items personally made are', whomade);
+		
 
 
 
