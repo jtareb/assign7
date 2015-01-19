@@ -59,7 +59,7 @@ var materialCount=[];
 var items, title, materials
 var materials=0;
 
-	var materialType=items.filter(function(object) {
+	var materialType=items.forEach(function(object) {
 		if(materials.length>7){
 			materialCount.push(object.title);
 		}
@@ -105,7 +105,7 @@ var items, who_made
 
 
 
-/*fifth question*/
+
 
 
 
