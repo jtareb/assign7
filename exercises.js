@@ -72,16 +72,27 @@ function multiply(){
 // ---------------------
 
 function reverse(){
-    //...
-}
-
+     
+    var name= "gixmo"
+ 
+    var Reverse= name.split("").reverse().join("");
+};
+console.log(reverse);
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
-
+var longwords = ["next", "september", "or", "discombobulate"];
 function findLongestWord(words){
+    var longest = 0;
+    for(var count = 0; count < longwords.length; count++); {
+        if(longwords[count].length > longest.length){
+            longest=longwords[count];
+
+        }
+    }
     //...
-}
+};
+console.log(longest);
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
