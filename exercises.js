@@ -27,8 +27,8 @@ function maxOfThree(x, y, z){
 // ---------------------
 function isVowel(char){
     var vowels = [a, e, i, o, u];
-    for(var numchar=0; numchar <vowels.length; numchar++){
-         if(char === vowels[numchar]){
+    for(var i=0; i <vowels.length; i++){
+         if(char === vowels[i]){
             return true;
          
     }
@@ -49,8 +49,8 @@ f
 var numbers = [1 ,2 ,3 ,4];
 function sum(){
     var total=0;
-    for (var count = 0, count < numbers.length);{
-         total += numbers[count++];
+    for (var i = 0, i < numbers.length);{
+         total += numbers[i++];
      }
 };
 console.log(total);
@@ -58,8 +58,8 @@ console.log(total);
 var numbers = [1, 2, 3, 4];
 function multiply(){
     var total=1;
-    for (var count = 0 , count < numbers.length);{
-        total = total * numbers[count];
+    for (var i = 0 , i < numbers.length);{
+        total = total * numbers[i];
 
     }
 
