@@ -17,7 +17,7 @@ var items, title, price, currency_code;
 
 var pricetag=items.filter(function(object) {
 	
- 	 return object.price>= 14 && object.price <= 18;  
+ 	 return object.price>= 14 && object.price <= 18 && object.currency_code === 'USD';  
  		
  				
  	
@@ -102,7 +102,6 @@ var items, who_made
 
 
 	
-
 
 
 

@@ -26,12 +26,12 @@ function maxOfThree(x, y, z){
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // ---------------------
 function isVowel(char){
-    var vowels = [a, e, i, o, u];
-    for(var i=0; i <vowels.length; i++){
-         if(char === vowels[i]){
-            return true;
-         
-    }
+    var vowels = ["A", "E", "I", "O", "U", "a", "e", "i", "o", "u"];
+    if(char = vow.indexOf(char) > -1) {
+        return true;
+    }   else{
+        return false;
+    }  
 };
 
 // ---------------------
@@ -39,6 +39,15 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
+   var retVal = "";
+   var vowels = "a,e,i,o,u";
+   for(i=0; i<phrase.length; i++){
+        if vowels.indexOf(phrase.charAt(i) == -1){
+            retVal += phrase.charAt(i) + "o" + phrase.charAt(i);
+        }
+        else {retVal += phrase.charAt(i);
+    }
+   }
     
 }
 
